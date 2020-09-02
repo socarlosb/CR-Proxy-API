@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "A simple proxy to use RoyalAPI API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.20.0",
+    "dotenv": "8.2.0",
+    "fastify": "3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
