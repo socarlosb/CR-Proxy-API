@@ -4,6 +4,10 @@ const fastify = require("fastify")({
   logger: true,
 });
 
+fastify.register(require("fastify-cors"), {
+  // put your options here
+});
+
 const axios = require("axios").default;
 
 const proxyToVendor = async (proxyUrl) => {
